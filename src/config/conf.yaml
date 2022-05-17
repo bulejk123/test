@@ -1,0 +1,18 @@
+host: &host 192.168.1.16
+inhost: &inhost 127.0.0.1
+
+db_mysql: &def_mysql
+  user: root
+  password: Test1234
+  addr: *inhost
+  port: 3306
+  dbname: cty
+  timeout: 10s
+  parsetime: true
+  loc: Local
+  charset: utf8mb4
+db_redis: &def_redis
+  db: 4
+  auth: Test1234
+  addr: *inhost
+  port: 6379
