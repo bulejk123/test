@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8973201-3d08-46f0-8639-45e5ac66cd93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/defer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/entity.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/file.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/json.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/map.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/math.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/net.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/rand.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/smap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/time.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo/util/token.go" beforeDir="false" />
-    </list>
+    <list default="true" id="f8973201-3d08-46f0-8639-45e5ac66cd93" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +30,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
