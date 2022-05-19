@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"log"
 )
 
 var (
@@ -14,7 +15,15 @@ var (
 	db       = "test"
 )
 
-func GetGormDb()(*gorm.DB,error){
-	return gorm.Open("mysql",fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=true&loc=Local&charset=utf8mb4,utf8",
+var (
+	Db *gorm.DB
+)
+
+func GetGormDb() {
+	var err error
+	Db, err = gorm.Open("mysql", fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=true&loc=Local&charset=utf8mb4,utf8",
 		user, password, host, port, db))
+	if err != nil {
+		log.Println("db fail",err)
+	}
 }

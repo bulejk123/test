@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
+const name uint8= 2
 func main() {
-	a:=math.Abs(-101 % 2)
-	fmt.Println(a)
+	var a uint8 =1
+	fmt.Println( a-name)
 }
